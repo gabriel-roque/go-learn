@@ -11,6 +11,10 @@ func main() {
 	fmt.Println(1, 2, 1000)
 	fmt.Println("Literal inteiro é", reflect.TypeOf(32000))
 
+	// Float
+	fmt.Println(1.3, 2.4, 1000.23)
+	fmt.Println("Literal Float é", reflect.TypeOf(1000.23))
+
 	// sem sinal (só positivos)... unit8 unit16 unit32 unit64
 	var b byte = 255
 	fmt.Println("O byte é", reflect.TypeOf(b))
